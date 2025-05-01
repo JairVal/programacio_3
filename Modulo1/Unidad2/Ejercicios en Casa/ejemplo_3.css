@@ -1,0 +1,40 @@
+.cuadro {
+  width: 300px;
+  padding: 20px;
+  margin: 50px auto;
+  border: 2px solid #444;
+  background-color: #fefefe;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  position: relative;
+  z-index: 1;
+}
+
+.cuadro::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  background: linear-gradient(to right, #e66465, #9198e5);
+  z-index: -1;
+}
+
+.cuadro h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.cuadro p {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.4;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.oculto {
+  visibility: hidden;
+}

@@ -1,0 +1,31 @@
+.cuadro {
+  width: 300px;
+  height: 150px;
+  margin: 50px auto;
+  padding: 15px;
+  background-color: #fff8dc;
+  border: 2px dashed #b8860b;
+  overflow: auto;
+  position: relative;
+  z-index: 1;
+}
+
+.cuadro p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.encima {
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  background: crimson;
+  color: white;
+  padding: 5px 10px;
+  z-index: 10;
+}
+
+.encima:hover {
+  cursor: pointer;
+  background-color: burlywood;
+}

@@ -1,0 +1,31 @@
+.fondo {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background: #f5f5f5;
+}
+
+.orden {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 1.5rem;
+  max-width: 600px;
+  width: 100%;
+}
+
+.circulo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: tomato;
+  transition: transform 0.4s ease, background 0.3s ease;
+  margin: auto;
+}
+
+.circulo:hover {
+  transform: scale(1.2);
+  background: gold;
+}

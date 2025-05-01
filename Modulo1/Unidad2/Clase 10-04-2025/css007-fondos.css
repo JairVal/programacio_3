@@ -1,0 +1,10 @@
+.fondo{
+    color: chocolate;
+    background-image: url(img/432602015_959530912205084_6923457376611312097_n.png);
+    /* background-position: center; */
+    background-size: auto;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 100%;
+}

@@ -1,0 +1,28 @@
+.box{
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    border: 5px solid black;
+    margin: 30px;
+    background-color: gold;
+    box-sizing: border-box;
+}
+
+.texto2 {
+    color: chartreuse;
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    line-height: 2;
+    text-align: right;
+    text-decoration: overline;
+    text-transform: uppercase;
+    letter-spacing: 1ch;
+    word-spacing: 5px;
+    white-space: nowrap;
+}
+
+.texto3 {
+    color: blueviolet;
+    font-weight: bold;
+}
