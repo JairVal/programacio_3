@@ -1,0 +1,15 @@
+div p{
+    color: red;
+}
+
+ul > li{
+    color: blueviolet;
+}
+
+a:hover {
+    color: aqua;
+}
+
+input[type="text"]{
+    border: 10px solid;
+}

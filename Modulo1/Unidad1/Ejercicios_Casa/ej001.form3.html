@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi tercer Formulario</title>
+</head>
+<body>
+    <form action="/submit2" method="post">
+        <fieldset>
+          <legend>Preferencias y Comentarios</legend>
+      
+          <label for="color">Color de tu gusto:</label>
+          <input list="colores" id="color" name="color">
+          <datalist id="colores">
+            <option value="Negro">
+            <option value="Azul">
+            <option value="Naranja">
+          </datalist><br><br>
+      
+          <label for="comentario">Comentarios:</label><br>
+          <textarea id="comentario" name="comentario" rows="4" cols="30"></textarea><br><br>
+      
+          <label for="pais">País:</label>
+          <select id="pais" name="pais">
+            <option value="mx">Ecuador</option>
+            <option value="es">Brasil</option>
+            <option value="ar">Argentina</option>
+          </select><br><br>
+      
+          <label for="nivel">Nivel de satisfacción:</label>
+          <input type="range" id="nivel" name="nivel" min="1" max="10"><br><br>
+      
+          <label for="progreso">Progreso:</label>
+          <progress id="progreso" value="60" max="100"></progress><br><br>
+      
+          <button type="submit">Enviar</button>
+          <button type="reset">Reiniciar</button>
+        </fieldset>
+      </form>      
+</body>
+</html>
