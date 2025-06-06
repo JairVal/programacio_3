@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es"
+    <head>
+        <meta charset="UTF-8">
+        <title> MI PRIMER FORMULARIO</title>
+    </head>
+    <body>
+       <form action="https://www.google.com" method="POST">
+        <table>
+            <tr>
+                <td>
+                    <label for="Nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre">
+                </td>
+                <td>
+                    <label for="Nombre">Provincia</label>
+                    <select id="provincia" name="provincia">
+                        <option value="ca">Carchi</label>
+                        <option value="pi">Pichincha</label>
+                        <option value="za">Zamora</label>
+                        <option value="im">imbabura</label>
+                        
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Nombre">Apellido</label>
+                    <input type="text" id="nombre" name="nombre">
+                </td>
+                <td>
+                    <label for="Nombre">Pais</label>
+                    <select id="pais" name="pais">
+                        <option value="ec">Ecuador</label>
+                        <option value="ve">Venezuela</label>
+                        <option value="br">Brazil</label>
+                        <option value="co">Colombia</label>
+                        
+                    </select>
+                </td>
+            </tr>
+
+            <td>
+                <legend>Ubicacion</legend>
+                <label for="direccion">Direccion</label>
+                <textarea  type="direccion" id="direccion" name="direccion" placeholder="Pintag" ></textarea>
+            </td>
+            <td>
+                <label for="Colores">Colores</label>
+                <select id="Colores" name="Colores" multiple>
+                    <option value="m">Azul</option>
+                    <option value="m">Rojo</option>
+                    <option value="m">Amarillo</option>
+                    <option value="m">Verde</option>
+                </select>
+
+            
+                <tr>
+                    <td>
+                        <label for="navegador">Navegadores</label>
+                        <input list="navegadores" id="navegador" name="navegador">
+                        <datalist id="navegadores">
+                            <option value="co">Crom</label>
+                            <option value="mo">Modzilla</label>
+                            <option value="ea">Eagle</label>
+                            </datalist>    
+                    </td>
+                    <td>
+                        <label for="porcentaje">Porcentaje</label>
+                        <input type="range" id="Porcentaje" name="Porcentaje">
+                    </td>
+                </tr>
+
+                <tr>    
+                    <td>
+                        <label for="Genero">Genero</label>
+                        <input type="checkbox" id="contar">Hombre
+                        <input type="radio" id="contar">Mujer
+                        <input type="checkbox" id="contar">Binario
+                        <input type="checkbox" id="contar">No definido
+                    </td>        
+                </tr>
+                  
+                
+            </td>
+        </table>
+       <button type="submit">Enviar </button>
+    </body>
+</html>

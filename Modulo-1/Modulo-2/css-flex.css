@@ -1,0 +1,30 @@
+body {
+    height: 1000px;
+    position: relative;
+}
+.statico {
+    background: lightslategray;
+    padding: 10px;
+}
+.relativo {
+    background: lightcoral;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+.absoluto {
+    background: coral;
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    padding: 10px;
+}
+
+.fijo {
+    background: darkturquoise;
+    color: aliceblue;
+    padding: 10px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}

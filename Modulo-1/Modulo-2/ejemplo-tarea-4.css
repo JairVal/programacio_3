@@ -1,0 +1,18 @@
+p{
+    color: aqua;
+
+}
+div p {
+    color:rgb(143, 50, 205);
+}
+ul > li {
+    color:rgb(255, 0, 128);
+}
+a:hover{
+    text-decoration: underline;
+    color: aqua;
+}
+input[type="text"] {
+    border:2px solid;
+
+}
