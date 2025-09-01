@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="dom05_eventos.html"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Eventos Inline</h1>
+    <button onclick="alert('Hola')">Click</button>
+    <br>
+    <button onclick="motrarAlerta()">Mostrar alerta</button>
+    <br>
+    <input type="text" oninput="console.log(this.value)">
+    <br>
+    <button onclick="agregarproducto()">Agregar Producto</button>
+    <br>
+    <br>
+    <ul id="listaProductos1"></ul>
+    <h1>Eventos por addEventListener</h1>
+    <button id="boton">haz click</button>
+    <br>
+    <input id="campo" type="text" placeholder="Agregar Producto">
+    <br>
+    <button id="btnagregar" class="boton">agregar producto</button>
+    <ul id="btnagregar"></ul>
+</body>
+</html>
